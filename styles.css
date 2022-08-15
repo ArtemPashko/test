@@ -1,0 +1,191 @@
+:root {
+--font-family: 'Roboto', sans-serif;
+--second-font-family: 'Raleway', sans-serif;
+--primary-text-color:#212121;
+--second-text-color: #757575;
+--accent-color: #2196F3;
+--white-color: #FFFFFF;
+--contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+background-color:#F5F5F5;
+color: var(--primary-text-color);
+font-family: var(--font-family);
+letter-spacing: 0.03em;
+}
+ /* header */
+.logo {
+color: var(--accent-color);
+text-decoration: none;
+font-family: var(--second-font-family);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+
+.logo-black {
+color: #000000;}
+.logo-white{
+    color: #FFFFFF;
+}
+ul {
+list-style: none;
+text-decoration: none;
+}
+.site-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.aut-nav .contacts {
+    color: var(--second-text-color);
+    text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.aut-nav .contacts:hover,
+.aut-nav .contacts:focus {
+    color: var(--accent-color);
+}
+.section-hero {
+    background-color: #2F303A;
+       
+}
+h1 {
+    color: var(--white-color);
+ font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;}
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.86;
+        letter-spacing: 0.06em;
+}
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+.subtitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+.text {
+color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.about {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 2.88;
+        text-align: center;
+}
+.name {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.about-worker {
+    color: var(--second-text-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+}
+.footer {
+    background-color: #2F303A; 
+}
+.address {
+    color: var(--white-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
+.mail {
+    color: var(--contacts-color);
+    text-decoration: none;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
+.tel {
+    color: var(--contacts-color);
+    text-decoration: none;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
+/* Potfolio */
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+.name-project {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.about-project {
+    color: var(--second-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+}
+.button-portfolio {
+    color: var(--primary-text-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+}
+.button-portfolio:hover, 
+.button-portfolio:focus {
+    color: var(--accent-color);
+}
+.button-portfolio.current {
+    color: var(--accent-color);
+}
